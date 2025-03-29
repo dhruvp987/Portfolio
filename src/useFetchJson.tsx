@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-function useFetchJson(url, dep) {
+function useFetchJson(url, deps) {
   const [result, setResult] = useState<object | undefined>(undefined);
 
   useEffect(() => {
@@ -8,7 +8,7 @@ function useFetchJson(url, dep) {
     .then(response => response.json())
     .then(json => setResult(json))
     .catch(err => console.error(err));
-  }, [dep]);
+  }, deps);
 
   return result;
 }

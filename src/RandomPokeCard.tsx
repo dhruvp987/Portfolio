@@ -27,7 +27,7 @@ function RandomPokeCard() {
     return res;
   }
 
-  const cards = useFetchJson(URL, render);
+  const cards = useFetchJson(URL, [render]);
   const imgUrl = typeof cards === 'object' ? retry(() => random(cards).image, undefined) + IMG_URL_END : undefined;
 
   return (
