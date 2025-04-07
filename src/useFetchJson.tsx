@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
-function useFetchJson(url, deps) {
-  const [result, setResult] = useState<object | undefined>(undefined);
+function useFetchJson<T extends object>(url: string, deps: any[]): T | undefined {
+  const [result, setResult] = useState<T | undefined>(undefined);
 
   useEffect(() => {
     fetch(url)

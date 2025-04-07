@@ -6,6 +6,10 @@ import { useState } from 'react';
 import useFetchJson from './useFetchJson.tsx';
 import './RandomPokeCard.css';
 
+interface Card {
+  image: string;
+}
+
 function RandomPokeCard() {
   const URL = 'https://api.tcgdex.net/v2/en/cards';
   const IMG_QUALITY = 'high';
@@ -14,12 +18,12 @@ function RandomPokeCard() {
 
   const [render, setRender] = useState(false);
 
-  function random(arr) {
+  function random<T>(arr: ArrayLike<T>): T {
     const randIndex = Math.floor(Math.random() * arr.length);
     return arr[randIndex];
   }
 
-  function retry(func, undesired) {
+  function retry<T>(func: () => T, undesired: any): T {
     let res = undesired;
     while (res === undesired) {
       res = func();
@@ -27,8 +31,8 @@ function RandomPokeCard() {
     return res;
   }
 
-  const cards = useFetchJson(URL, [render]);
-  const imgUrl = typeof cards === 'object' ? retry(() => random(cards).image, undefined) + IMG_URL_END : undefined;
+  const cards: ArrayLike<Card> | undefined = useFetchJson<ArrayLike<Card>>(URL, [render]);
+  const imgUrl = typeof cards === 'object' ? retry<string>(() => random<Card>(cards).image, undefined) + IMG_URL_END : undefined;
 
   return (
     <div className="random-poke-card-div">

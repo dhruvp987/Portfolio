@@ -1,6 +1,8 @@
 import './Wind.css'
 
-function Wind({ startY, width, height, aniDur }: { startY, width, height, aniDur: number }) {
+function Wind({ startY, width, height, aniDur }:
+	      { startY: number, width: number,
+		height: number, aniDur: number }) {
   const style = {
     width: `${width}px`,
     height: `${height}px`,
