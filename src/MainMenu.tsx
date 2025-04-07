@@ -1,8 +1,10 @@
+import "./MainMenu.css"
+
 function MainMenu() {
   return (
-    <div id="main-menu-div">
-      <ul id="main-menu-ul">
-        <li>Projects</li>
+    <div className="main-menu-div">
+      <ul className="main-menu-ul">
+        <li><a href="/projects.html">Projects</a></li>
       </ul>
     </div>
   );
