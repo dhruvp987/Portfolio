@@ -1,0 +1,17 @@
+@keyframes left-right {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.wind-div {
+  position: absolute;
+  z-index: -1;
+  background: whiteSmoke;
+  animation-name: left-right;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
