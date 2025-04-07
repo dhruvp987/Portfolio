@@ -1,0 +1,9 @@
+.name-title-div {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  /* Weight should be from 400 to 900 */
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2vw;
+  text-align: center;
+}
