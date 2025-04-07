@@ -10,7 +10,10 @@
 .wind-div {
   position: absolute;
   z-index: -1;
-  background: whiteSmoke;
+  background: white;
+  border-color: lightGray;
+  border-width: thin;
+  border-style: solid;
   animation-name: left-right;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
