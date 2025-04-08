@@ -1,8 +1,4 @@
-body {
-  background-color: #fff2e1;
-}
-
-#root {
+.index-div {
   display: flex;
   flex-direction: column;
   align-items: center;
