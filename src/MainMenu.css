@@ -1,4 +1,11 @@
 .main-menu-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   list-style: none;
-  padding: 0;
+  padding: 0px;
+}
+
+.main-menu-ul > li {
+  margin: 5px;
 }
