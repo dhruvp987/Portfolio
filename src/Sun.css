@@ -1,0 +1,30 @@
+.sun-div {
+  width: 500px;
+  height: 500px;
+}
+
+.sun-rays {
+  position: relative;
+  border-radius: 50%;
+  width: 90%;
+  height: 90%;
+  left: 5%;
+  top: -70%;
+  background: radial-gradient(
+    circle,
+    #ff7518 0%,
+    rgba(255, 255, 255, 0) 80%,
+  );
+  opacity: 50%;
+}
+
+.sun {
+  position: relative;
+  border-radius: 50%;
+  width: 75%;
+  height: 75%;
+  left: 12.5%;
+  top: 12.5%;
+  background: yellow;
+  box-shadow: 0 0 40px rgba(255, 255, 0, 0.6);
+}

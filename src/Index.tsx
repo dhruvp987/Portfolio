@@ -2,6 +2,7 @@ import MainMenu from './MainMenu.tsx';
 import NameTitle from './NameTitle.tsx';
 import RandomPokeCard from './RandomPokeCard.tsx';
 import Wind from './Wind.tsx';
+import Sun from './Sun.tsx';
 import './Index.css';
 
 function Index() {
@@ -12,7 +13,7 @@ function Index() {
       <Wind startY={130} width={105} height={10} aniDur={15} />
       <NameTitle />
       <MainMenu />
-      <RandomPokeCard />
+      <Sun />
     </div>
   );
 }
