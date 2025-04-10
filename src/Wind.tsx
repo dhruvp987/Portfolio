@@ -1,16 +1,13 @@
 import './Wind.css'
 
-function Wind({ startY, width, height, aniDur }:
-	      { startY: number, width: number,
-		height: number, aniDur: number }) {
-  const style = {
-    width: `${width}px`,
-    height: `${height}px`,
-    // Center the rectangle along startY
-    top: `${Math.floor(startY - (height / 2))}px`,
-    animationDuration: `${aniDur}s`,
-  };
+type WindStyle = {
+  width: string;
+  height: string;
+  top: string;
+  animationDuration: string;
+}
 
+function Wind({ style }: { style: WindStyle }) {
   return (
     <div className="wind-div" style={style}></div>
   )

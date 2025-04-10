@@ -8,8 +8,8 @@
 }
 
 .wind-div {
-  position: absolute;
   z-index: -1;
+  position: absolute;
   background: white;
   border-color: lightGray;
   border-width: thin;
