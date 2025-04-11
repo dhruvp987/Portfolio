@@ -5,7 +5,7 @@ function MainMenu() {
     <div className="main-menu-div">
       <ul className="main-menu-ul">
         <li className="main-menu-li">
-	  <a href="/projects">Projects</a>
+	  <a href="/Portfolio/Projects">Projects</a>
 	</li>
 	<li className="main-menu-li">
 	  <a href="https://linkedin.com/in/dhruv-patel-327042293"
