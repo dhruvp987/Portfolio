@@ -39,6 +39,11 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+      # The website is a Single Page App, but GitHub Pages
+      # will try to serve a file at the requested URL, causing a 404 because
+      # it doesn't exist. This lets React Router do the work instead of Pages.
+      - name: Copy index.html to 404.html
+        run: cp dist/index.html dist/404.html
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
