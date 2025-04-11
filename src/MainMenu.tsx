@@ -4,9 +4,25 @@ function MainMenu() {
   return (
     <div className="main-menu-div">
       <ul className="main-menu-ul">
-        <li><a href="/projects">Projects</a></li>
-	<li><a href="https://linkedin.com/in/dhruv-patel-327042293">LinkedIn</a></li>
-	<li><a href="https://github.com/dhruvp987">GitHub</a></li>
+        <li className="main-menu-li">
+	  <a href="/projects">Projects</a>
+	</li>
+	<li className="main-menu-li">
+	  <a href="https://linkedin.com/in/dhruv-patel-327042293"
+	     target="_blank"
+	     rel="noopener noreferrer"
+	  >
+	     LinkedIn
+	  </a>
+	</li>
+	<li className="main-menu-li">
+	  <a href="https://github.com/dhruvp987"
+	     target="_blank"
+	     rel="noopener noreferrer"
+	  >
+	    GitHub
+	  </a>
+	</li>
       </ul>
     </div>
   );

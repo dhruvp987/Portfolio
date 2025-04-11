@@ -4,9 +4,10 @@
   align-items: center;
   list-style: none;
   padding: 0px;
+  margin: 0px;
 }
 
-.main-menu-ul > li {
+.main-menu-li {
   margin: 5px;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -14,4 +15,18 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+  font-size: 125%;
+}
+
+.main-menu-li > a {
+  text-decoration: none;
+  color: blue;
+}
+
+.main-menu-li > a:visited {
+  color: blue;
+}
+
+.main-menu-li > a:hover {
+  text-decoration: underline;
 }
