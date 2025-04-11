@@ -2,7 +2,20 @@
   font-family: "Lato", sans-serif;
   font-weight: 100;
   font-style: normal;
-  font-size: 2vw;
+  font-size: clamp(15px, 2vw, 100px);
   text-align: center;
   color: #300000;
+}
+
+.name-title-name, .name-title-title {
+  margin: 15px;
+  padding: 0px;
+}
+
+.name-title-name {
+  margin-top: 30px;
+}
+
+.name-title-title {
+  margin-bottom: 40px;
 }
