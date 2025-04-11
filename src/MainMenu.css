@@ -16,7 +16,7 @@
   font-variation-settings:
     "wdth" 100;
   font-size: 125%;
-  text-rendering: optimizeLegibility;
+  text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
 
