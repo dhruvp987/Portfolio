@@ -4,6 +4,8 @@
   font-style: normal;
   font-size: clamp(15px, 2vw, 100px);
   text-align: center;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
   color: #300000;
 }
 
