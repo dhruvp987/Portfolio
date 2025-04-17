@@ -12,7 +12,7 @@ I hope you enjoy using it as much as I enjoy making it!
 ## Note
 - Website does not render correctly on Safari
 - Font looks too thin on Firefox
-- Wind will following screen when scrolling
+- Wind will follow screen when scrolling
 
 ## To-Do
 - Fix rendering issues on Safari
