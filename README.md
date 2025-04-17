@@ -1,5 +1,8 @@
 # Portfolio
 An elegant, lightweight, and performant website to practice design and frontend skills while showcasing myself.  
+
+https://github.com/user-attachments/assets/644c1f22-b252-4496-a255-0fb0b339f37c  
+
 Check it out at https://dhruvp987.github.io/Portfolio (read **Note**).
 
 ## Background
