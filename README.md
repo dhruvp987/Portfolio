@@ -11,9 +11,11 @@ I hope you enjoy using it as much as I enjoy making it!
 
 ## Note
 - Website does not render correctly on Safari
+- Font looks too thin on Firefox
 
 ## To-Do
 - Fix rendering issues on Safari
+- Thicken font on Firefox
 - Finish Projects page
 
 ## Technologies and Skills Used
