@@ -8,7 +8,7 @@ function MainMenu() {
 	  <a href="/Portfolio/Projects">Projects</a>
 	</li>
 	<li className="main-menu-li">
-	  <a href="https://linkedin.com/in/dhruv-patel-327042293"
+	  <a href="https://linkedin.com/in/dhruvpatel789"
 	     target="_blank"
 	     rel="noopener noreferrer"
 	  >
