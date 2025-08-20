@@ -12,10 +12,6 @@
 	}, 4500);
 </script>
 
-<div
-	class="absolute -z-1 h-screen w-screen bg-[url('/ambition.png')] bg-cover bg-bottom bg-no-repeat brightness-35"
-></div>
-
 {#if quoteVisible}
 	<div class="flex h-screen w-screen flex-col items-center justify-center p-5" transition:fade>
 		<h1 class="instrument-serif-regular block text-7xl text-white">
@@ -26,12 +22,12 @@
 {/if}
 
 {#if mainContentVisible}
-	<div class="flex h-screen w-screen flex-col items-center justify-center" transition:fade>
-		<h1 class="instrument-serif-regular grow p-11 text-7xl text-white">Dhruv Patel</h1>
+	<div class="flex h-screen w-screen flex-col items-center justify-center p-11" transition:fade>
+		<h1 class="instrument-serif-regular grow text-7xl text-white">Dhruv Patel</h1>
 		<h2 class="instrument-serif-regular flex-none p-6 text-5xl text-white">
 			Building the Fun Stuff for Everyone 🚀
 		</h2>
-		<div class="flex-none pb-11">
+		<div class="flex-none">
 			<a
 				href="/projects"
 				class="space-mono-regular mx-1 inline-block rounded-3xl bg-white px-4 py-2 text-xl text-black transition duration-200 ease-in-out hover:bg-cyan-100"

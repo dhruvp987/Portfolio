@@ -15,4 +15,8 @@
 	/>
 </svelte:head>
 
+<div
+	class="absolute -z-1 h-screen w-screen bg-[url('/ambition.png')] bg-cover bg-bottom bg-no-repeat brightness-35"
+></div>
+
 {@render children?.()}
