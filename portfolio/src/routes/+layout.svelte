@@ -10,7 +10,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link
-		href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Space+Mono&display=swap"
+		href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Instrument+Serif&display=swap"
 		rel="stylesheet"
 	/>
 </svelte:head>

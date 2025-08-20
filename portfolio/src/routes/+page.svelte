@@ -3,16 +3,16 @@
 </script>
 
 {#if pageNum === 0}
-	<div class="flex h-screen w-screen flex-col items-center justify-center p-11">
+	<div class="flex h-screen w-screen flex-col items-center justify-center gap-10 px-5 py-11">
 		<h1 class="instrument-serif-regular grow text-7xl text-white">Dhruv Patel</h1>
-		<div class="flex flex-col items-center justify-center pb-9">
+		<div class="flex flex-col items-center justify-center">
 			<p class="instrument-serif-regular block pb-1 text-5xl text-white">
 				The only way to do great work is to love what you do.
 			</p>
 			<p class="instrument-serif-regular block text-5xl text-white">~ Steve Jobs</p>
 		</div>
 		<button
-			class="space-mono-regular mx-1 flex-none rounded-3xl bg-white p-2 text-xl text-black transition duration-200 ease-in-out hover:bg-cyan-100"
+			class="space-mono-regular flex-none rounded-3xl bg-white p-2 text-xl text-black transition duration-200 ease-in-out hover:bg-cyan-100"
 			onclick={() => {
 				pageNum += 1;
 			}}
@@ -25,9 +25,9 @@
 		>
 	</div>
 {:else}
-	<div class="flex h-screen w-screen flex-col items-center p-11">
+	<div class="flex h-screen w-screen flex-col items-center gap-10 px-5 py-11">
 		<button
-			class="space-mono-regular mx-1 flex-none rounded-3xl bg-white p-2 text-xl text-black transition duration-200 ease-in-out hover:bg-cyan-100"
+			class="space-mono-regular flex-none rounded-3xl bg-white p-2 text-xl text-black transition duration-200 ease-in-out hover:bg-cyan-100"
 			onclick={() => {
 				pageNum -= 1;
 			}}
@@ -39,6 +39,11 @@
 				/></svg
 			>
 		</button>
-		<h1 class="instrument-serif-regular pt-10 text-7xl text-white">Coming Soon</h1>
+		<div class="rounded-2xl border-2 border-gray-500 bg-(--glassy-gray) p-5 backdrop-blur-sm">
+			<h3 class="instrument-serif-regular pb-3 text-5xl text-white text-shadow-md">About Me</h3>
+			<p class="dm-sans-regular text-2xl text-white text-shadow-md">
+				Building the most exciting things, one step at a time!
+			</p>
+		</div>
 	</div>
 {/if}

@@ -1,13 +1,18 @@
 @import 'tailwindcss';
 
+:root {
+	--glassy-gray: rgba(100, 100, 100, 0.4);
+}
+
 .instrument-serif-regular {
 	font-family: 'Instrument Serif', serif;
 	font-weight: 400;
 	font-style: normal;
 }
 
-.space-mono-regular {
-	font-family: 'Space Mono', monospace;
+.dm-sans-regular {
+	font-family: 'DM Sans', sans-serif;
+	font-optical-sizing: auto;
 	font-weight: 400;
 	font-style: normal;
 }
