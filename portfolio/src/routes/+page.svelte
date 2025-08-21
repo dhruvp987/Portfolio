@@ -1,11 +1,32 @@
 <script lang="ts">
 	import Project from './Project.svelte';
+	import { fade } from 'svelte/transition';
+
+	const fadeParams = { duration: 100 };
 
 	let pageNum = $state(0);
+
+	function resetPageNum() {
+		// Remove the previous page without loading another one
+		pageNum = -1;
+	}
+
+	function gotoPage(num) {
+		pageNum = num;
+	}
+
+	function onPage(num) {
+		return pageNum === num;
+	}
 </script>
 
-{#if pageNum === 0}
-	<div class="flex h-screen w-screen flex-col items-center justify-center gap-10 px-5 py-11">
+{#if onPage(0)}
+	<div
+		class="flex h-screen w-screen flex-col items-center justify-center gap-10 px-5 py-11"
+		in:fade={fadeParams}
+		out:fade={fadeParams}
+		onoutroend={() => gotoPage(1)}
+	>
 		<h1 class="instrument-serif-regular grow text-7xl text-white">Dhruv Patel</h1>
 		<div class="flex flex-col items-center justify-center">
 			<p class="instrument-serif-regular block pb-1 text-5xl text-white">
@@ -15,9 +36,7 @@
 		</div>
 		<button
 			class="flex-none rounded-3xl bg-white p-2 transition duration-200 ease-in-out hover:bg-cyan-100"
-			onclick={() => {
-				pageNum += 1;
-			}}
+			onclick={resetPageNum}
 			title="Next Section"
 			aria-label="Next Section"
 			><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -28,13 +47,16 @@
 			></button
 		>
 	</div>
-{:else}
-	<div class="flex h-screen w-screen flex-col items-center gap-10 px-5 py-11">
+{:else if onPage(1)}
+	<div
+		class="flex h-screen w-screen flex-col items-center gap-10 px-5 py-11"
+		in:fade={fadeParams}
+		out:fade={fadeParams}
+		onoutroend={() => gotoPage(0)}
+	>
 		<button
 			class="rounded-3xl bg-white p-2 transition duration-200 ease-in-out hover:bg-cyan-100"
-			onclick={() => {
-				pageNum -= 1;
-			}}
+			onclick={resetPageNum}
 			title="Previous Section"
 			aria-label="Previous Section"
 		>
