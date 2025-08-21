@@ -10,6 +10,12 @@
 	font-style: normal;
 }
 
+.instrument-serif-regular-italic {
+	font-family: 'Instrument Serif', serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
 .dm-sans-regular {
 	font-family: 'DM Sans', sans-serif;
 	font-optical-sizing: auto;

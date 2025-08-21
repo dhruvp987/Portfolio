@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Project from './Project.svelte';
+
 	let pageNum = $state(0);
 </script>
 
@@ -16,6 +18,8 @@
 			onclick={() => {
 				pageNum += 1;
 			}}
+			title="Next Section"
+			aria-label="Next Section"
 			><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
 				><path
 					fill="currentColor"
@@ -31,6 +35,8 @@
 			onclick={() => {
 				pageNum -= 1;
 			}}
+			title="Previous Section"
+			aria-label="Previous Section"
 		>
 			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
 				><path
@@ -39,9 +45,11 @@
 				/></svg
 			>
 		</button>
-		<div class="rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm">
-			<h3 class="instrument-serif-regular pb-3 text-5xl text-white text-shadow-md">About Me</h3>
-			<p class="dm-sans-regular pb-3 text-2xl text-white text-shadow-md">
+		<div
+			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
+		>
+			<h3 class="instrument-serif-regular pb-3 text-5xl text-white">Hi, Mom and Dad! 👋</h3>
+			<p class="dm-sans-regular pb-3 text-xl text-white">
 				Building the most exciting things, one step at a time!
 			</p>
 			<a
@@ -49,6 +57,8 @@
 				target="_blank"
 				rel="noopener noreferrer"
 				class="mr-1 inline-block rounded-3xl bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+				title="My LinkedIn"
+				aria-label="My LinkedIn"
 			>
 				<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 640 640"
 					><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path
@@ -61,6 +71,8 @@
 				target="_blank"
 				rel="noopener noreferrer"
 				class="inline-block rounded-3xl bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+				title="My GitHub"
+				aria-label="My GitHub"
 			>
 				<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 640 640"
 					><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path
@@ -69,9 +81,23 @@
 				>
 			</a>
 		</div>
-		<div class="rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm">
-			<h3 class="instrument-serif-regular pb-3 text-5xl text-white text-shadow-md">Projects</h3>
-			<p class="dm-sans-regular text-2xl text-white text-shadow-md">Projects coming soon!</p>
+		<div
+			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
+		>
+			<h3 class="instrument-serif-regular pb-3 text-5xl text-white">Projects</h3>
+			<div class="flex flex-col gap-7">
+				<Project
+					name="RoomReady"
+					description="Analyzing images of rooms to prepare them for natural disasters."
+					githubLink="https://github.com/NateMartes/RoomReady"
+					devpostLink="https://devpost.com/software/roomready"
+				/>
+				<Project
+					name="ChatBox"
+					description="Easy-to-use platform to host and use local LLMs conveniently and privately."
+					githubLink="https://github.com/dhruvp987/ChatBox"
+				/>
+			</div>
 		</div>
 	</div>
 {/if}
