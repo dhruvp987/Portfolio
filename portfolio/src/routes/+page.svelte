@@ -18,6 +18,16 @@
 	function onPage(num) {
 		return pageNum === num;
 	}
+
+	const aboutMeParagraphs = [
+		'I want to build the fun stuff that everyone can enjoy.',
+		'Why? Because it is exciting what can be done, and the potential is life-changing!',
+		'Growing up, I saw computers change the world around us, from the Web to now generative AI. These are things that have opened doors, made life easier, and put smiles on people’s faces, including mine.',
+		'Now, I want to try to open doors, make life easier, and put smiles on people’s faces 😀.',
+		'That’s why I decided to pursue Computer Science, and keep learning and living with the cutting edge.',
+		'I helped on a website that can suggest ways to improve a room’s safety against natural disasters, using Google Gemini, winning 1st place at a J.P. Morgan Chase affiliated hackathon. Right now, I am learning how to leverage LLMs even further, first with a chatbot that can easily host and make accessible local, powerful, and private models on a variety of hardware.',
+		'I want to build exciting things! Today, the excitement is AI. Whatever it is tomorrow, I will be there!'
+	];
 </script>
 
 {#if onPage(0)}
@@ -49,7 +59,7 @@
 	</div>
 {:else if onPage(1)}
 	<div
-		class="flex h-screen w-screen flex-col items-center gap-10 px-5 py-11"
+		class="flex h-[100%] w-[100%] flex-col items-center gap-10 px-5 py-11"
 		in:fade={fadeParams}
 		out:fade={fadeParams}
 		onoutroend={() => gotoPage(0)}
@@ -71,9 +81,11 @@
 			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
 		>
 			<h3 class="instrument-serif-regular pb-3 text-5xl text-white">Hi, Mom and Dad! 👋</h3>
-			<p class="dm-sans-regular pb-3 text-xl text-white">
-				Building the most exciting things, one step at a time!
-			</p>
+			{#each aboutMeParagraphs as pg}
+				<p class="dm-sans-regular pb-3 text-xl text-white">
+					{pg}
+				</p>
+			{/each}
 			<a
 				href="https://linkedin.com/in/dhruvpatel789"
 				target="_blank"
