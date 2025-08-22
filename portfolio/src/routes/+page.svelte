@@ -62,7 +62,9 @@
 		out:fade={fadeParams}
 		onoutroend={() => gotoPage(1)}
 	>
-		<h1 class="instrument-serif-regular grow text-7xl text-white">Dhruv Patel</h1>
+		<h1 class="instrument-serif-regular grow animate-glowing-white-text text-7xl text-white">
+			Dhruv Patel
+		</h1>
 		<div class="flex flex-col items-center justify-center">
 			<p class="instrument-serif-regular block pb-1 text-5xl text-white">
 				The only way to do great work is to love what you do.
