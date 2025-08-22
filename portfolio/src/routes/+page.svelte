@@ -20,13 +20,36 @@
 	}
 
 	const aboutMeParagraphs = [
-		'I want to build the fun stuff that everyone can enjoy.',
-		'Why? Because it is exciting what can be done, and the potential is life-changing!',
-		'Growing up, I saw computers change the world around us, from the Web to now generative AI. These are things that have opened doors, made life easier, and put smiles on people’s faces, including mine.',
-		'Now, I want to try to open doors, make life easier, and put smiles on people’s faces 😀.',
-		'That’s why I decided to pursue Computer Science, and keep learning and living with the cutting edge.',
-		'I helped on a website that can suggest ways to improve a room’s safety against natural disasters, using Google Gemini, winning 1st place at a J.P. Morgan Chase affiliated hackathon. Right now, I am learning how to leverage LLMs even further, first with a chatbot that can easily host and make accessible local, powerful, and private models on a variety of hardware.',
-		'I want to build exciting things! Today, the excitement is AI. Whatever it is tomorrow, I will be there!'
+		{ id: 0, content: 'I want to build the fun stuff that everyone can enjoy.' },
+		{
+			id: 1,
+			content: 'Why? Because it is exciting what can be done, and the potential is life-changing!'
+		},
+		{
+			id: 2,
+			content:
+				'Growing up, I saw computers change the world around us, from the Web to now generative AI. These are things that have opened doors, made life easier, and put smiles on people’s faces, including mine.'
+		},
+		{
+			id: 3,
+			content:
+				'Now, I want to try to open doors, make life easier, and put smiles on people’s faces 😀.'
+		},
+		{
+			id: 4,
+			content:
+				'That’s why I decided to pursue Computer Science, and keep learning and living with the cutting edge.'
+		},
+		{
+			id: 5,
+			content:
+				'I helped on a website that can suggest ways to improve a room’s safety against natural disasters, using Google Gemini, winning 1st place at a J.P. Morgan Chase affiliated hackathon. Right now, I am learning how to leverage LLMs even further, first with a chatbot that can easily host and make accessible local, powerful, and private models on a variety of hardware.'
+		},
+		{
+			id: 6,
+			content:
+				'I want to build exciting things! Today, the excitement is AI. Whatever it is tomorrow, I will be there!'
+		}
 	];
 </script>
 
@@ -81,9 +104,9 @@
 			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
 		>
 			<h3 class="instrument-serif-regular pb-3 text-5xl text-white">Hi, Mom and Dad! 👋</h3>
-			{#each aboutMeParagraphs as pg}
+			{#each aboutMeParagraphs as pg (pg.id)}
 				<p class="dm-sans-regular pb-3 text-xl text-white">
-					{pg}
+					{pg.content}
 				</p>
 			{/each}
 			<a
@@ -122,16 +145,35 @@
 			<div class="flex flex-col gap-7">
 				<Project
 					name="RoomReady"
+					imageUrl="/roomready.webp"
+					imageDesc="Screenshot of RoomReady Demo"
 					description="Analyzing images of rooms to prepare them for natural disasters."
 					githubLink="https://github.com/NateMartes/RoomReady"
 					devpostLink="https://devpost.com/software/roomready"
 				/>
 				<Project
 					name="ChatBox"
+					imageUrl="/chatbox.webp"
+					imageDesc="Screenshot of ChatBox Demo"
 					description="Easy-to-use platform to host and use local LLMs conveniently and privately."
 					githubLink="https://github.com/dhruvp987/ChatBox"
 				/>
+				<Project
+					name="EPIC8"
+					imageUrl="/epic8.webp"
+					imageDesc="Screenshot of EPIC8 Demo"
+					description="An epic CHIP-8 emulator."
+					githubLink="https://github.com/dhruvp987/EPIC8"
+				/>
 			</div>
+		</div>
+		<div
+			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
+		>
+			<h3 class="instrument-serif-regular pb-3 text-5xl text-white">About this Website</h3>
+			<p class="dm-sans-regular text-xl text-white">
+				This website is built using TypeScript, Svelte, SvelteKit, Tailwind CSS, and lots of ❤️!
+			</p>
 		</div>
 	</div>
 {/if}

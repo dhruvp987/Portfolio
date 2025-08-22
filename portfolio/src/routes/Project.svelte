@@ -1,9 +1,10 @@
 <script lang="ts">
-	let { name, description, githubLink = '', devpostLink = '' } = $props();
+	let { name, imageUrl, imageDesc, description, githubLink = '', devpostLink = '' } = $props();
 </script>
 
 <div>
 	<h5 class="instrument-serif-regular-italic pb-1 text-3xl text-white">{name}</h5>
+	<img src={imageUrl} alt={imageDesc} class="mb-2 rounded-xl" />
 	<p class="dm-sans-regular pb-2 text-xl text-white">{description}</p>
 	{#if githubLink !== ''}
 		<a
