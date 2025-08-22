@@ -106,7 +106,7 @@
 				href="https://linkedin.com/in/dhruvpatel789"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="mr-1 inline-block rounded-3xl bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+				class="mr-1 inline-flex items-center justify-center rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
 				title="My LinkedIn"
 				aria-label="My LinkedIn"
 			>
@@ -116,7 +116,7 @@
 				href="https://github.com/dhruvp987"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="inline-block rounded-3xl bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+				class="inline-flex items-center justify-center rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
 				title="My GitHub"
 				aria-label="My GitHub"
 			>

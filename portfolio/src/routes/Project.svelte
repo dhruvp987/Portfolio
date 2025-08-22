@@ -14,7 +14,7 @@
 			href={githubLink}
 			target="_blank"
 			rel="noopener noreferrer"
-			class="mr-1 inline-block rounded-3xl bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+			class="mr-1 inline-flex items-center justify-center rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
 			title="GitHub for {name}"
 			aria-label="GitHub for {name}"
 		>
@@ -26,7 +26,7 @@
 			href={devpostLink}
 			target="_blank"
 			rel="noopener noreferrer"
-			class="mr-1 inline-block rounded-3xl bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+			class="mr-1 inline-flex items-center justify-center rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
 			title="DevPost for {name}"
 			aria-label="DevPost for {name}"
 		>
