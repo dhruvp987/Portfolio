@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 :root {
-	--glassy-gray: rgba(100, 100, 100, 0.6);
+	--glassy-gray: rgba(100, 100, 100, 0.9);
 }
 
 @theme {
