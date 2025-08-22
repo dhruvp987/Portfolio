@@ -45,7 +45,7 @@
 		{
 			id: 5,
 			content:
-				'I helped on a website that can suggest ways to improve a room’s safety against natural disasters, using Google Gemini, winning 1st place at a J.P. Morgan Chase affiliated hackathon. Right now, I am learning how to leverage LLMs even further, first with a chatbot that can easily host and make accessible local, powerful, and private models on a variety of hardware.'
+				'I helped on a website that can suggest ways to improve a room’s safety against natural disasters using Google Gemini, winning 1st place at a J.P. Morgan Chase affiliated hackathon. Right now, I am learning how to leverage LLMs even further, first with a chatbot that can easily host and make accessible local, powerful, and private models on a variety of hardware.'
 		},
 		{
 			id: 6,
