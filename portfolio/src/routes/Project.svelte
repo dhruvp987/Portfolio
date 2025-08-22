@@ -6,8 +6,8 @@
 </script>
 
 <div>
-	<h5 class="instrument-serif-regular-italic pb-1 text-3xl text-white">{name}</h5>
-	<img src={imageUrl} alt={imageDesc} class="mb-2 rounded-xl" />
+	<h4 class="instrument-serif-regular-italic pb-1 text-3xl text-white">{name}</h4>
+	<a href={imageUrl} target="_blank" rel="noopener noreferrer" title="Image of {name}"><img src={imageUrl} alt={imageDesc} class="mb-2 rounded-xl" /></a>
 	<p class="dm-sans-regular pb-2 text-xl text-white">{description}</p>
 	{#if githubLink !== ''}
 		<a
