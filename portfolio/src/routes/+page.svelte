@@ -77,7 +77,7 @@
 			title="Next Section"
 			aria-label="Next Section"
 		>
-			<span class="material-symbols--arrow-downward-rounded block" />
+			<span class="material-symbols--arrow-downward-rounded block"></span>
 		</button>
 	</div>
 {:else if onPage(1)}
@@ -93,7 +93,7 @@
 			title="Previous Section"
 			aria-label="Previous Section"
 		>
-			<span class="material-symbols--arrow-upward-rounded block" />
+			<span class="material-symbols--arrow-upward-rounded block"></span>
 		</button>
 		<div
 			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
