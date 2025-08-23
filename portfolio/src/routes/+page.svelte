@@ -26,6 +26,9 @@
 		const downCode = 40;
 
 		if ((event.keyCode === downCode && onPage(0)) || (event.keyCode === upCode && onPage(1))) {
+			// Resetting the page num will remove the current page, which will then trigger
+			// the removed page's onoutroend handler, which is currently set to load whatever
+			// page it needs to load
 			resetPageNum();
 		}
 	}
