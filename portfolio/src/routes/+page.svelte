@@ -1,7 +1,5 @@
 <script lang="ts">
 	import Project from './Project.svelte';
-	import LinkedInSVG from '$lib/assets/LinkedInSVG.svelte';
-	import GitHubSVG from '$lib/assets/GitHubSVG.svelte';
 	import { fade } from 'svelte/transition';
 
 	const fadeParams = { duration: 100 };
@@ -89,7 +87,7 @@
 			title="Next Section"
 			aria-label="Next Section"
 		>
-			<span class="material-symbols--arrow-downward-rounded block"></span>
+			<img class="size-[2em]" src="/downarrow.svg" alt="Down arrow icon" />
 		</button>
 	</div>
 {:else if onPage(1)}
@@ -105,7 +103,7 @@
 			title="Previous Section"
 			aria-label="Previous Section"
 		>
-			<span class="material-symbols--arrow-upward-rounded block"></span>
+			<img class="size-[2em]" src="/uparrow.svg" alt="Up arrow icon" />
 		</button>
 		<div
 			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
@@ -124,7 +122,7 @@
 				title="My LinkedIn"
 				aria-label="My LinkedIn"
 			>
-				<LinkedInSVG />
+				<img class="size-[2em]" src="/linkedinfull.svg" alt="LinkedIn icon" />
 			</a>
 			<a
 				href="https://github.com/dhruvp987"
@@ -134,7 +132,7 @@
 				title="My GitHub"
 				aria-label="My GitHub"
 			>
-				<GitHubSVG />
+				<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
 			</a>
 		</div>
 		<div

@@ -1,7 +1,4 @@
 <script lang="ts">
-	import DRoundedSVG from '$lib/assets/DRoundedSVG.svelte';
-	import GitHubSVG from '$lib/assets/GitHubSVG.svelte';
-
 	let { name, imageUrl, imageDesc, description, githubLink = '', devpostLink = '' } = $props();
 </script>
 
@@ -20,7 +17,7 @@
 			title="GitHub for {name}"
 			aria-label="GitHub for {name}"
 		>
-			<GitHubSVG />
+			<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
 		</a>
 	{/if}
 	{#if devpostLink !== ''}
@@ -32,7 +29,7 @@
 			title="DevPost for {name}"
 			aria-label="DevPost for {name}"
 		>
-			<DRoundedSVG />
+			<img class="size-[2em]" src="/droundedfull.svg" alt="D icon" />
 		</a>
 	{/if}
 </div>
