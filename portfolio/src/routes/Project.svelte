@@ -7,7 +7,9 @@
 
 <div>
 	<h4 class="instrument-serif-regular-italic pb-1 text-3xl text-white">{name}</h4>
-	<a href={imageUrl} target="_blank" rel="noopener noreferrer" title="Image of {name}"><img src={imageUrl} alt={imageDesc} class="mb-2 rounded-xl" /></a>
+	<a href={imageUrl} target="_blank" rel="noopener noreferrer" title="Image of {name}"
+		><img src={imageUrl} alt={imageDesc} class="mb-2 rounded-xl border-2 border-gray-600" /></a
+	>
 	<p class="dm-sans-regular pb-2 text-xl text-white">{description}</p>
 	{#if githubLink !== ''}
 		<a

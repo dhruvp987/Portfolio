@@ -131,10 +131,10 @@
 			<h3 class="instrument-serif-regular pb-3 text-5xl text-white">Projects</h3>
 			<div class="flex flex-col gap-7">
 				<Project
-					name="RoomReady"
+					name="RoomReady (1st Place Winner at HenHacks 2025)"
 					imageUrl="/roomready.webp"
 					imageDesc="Screenshot of RoomReady Demo"
-					description="Analyzing images of rooms to prepare them for natural disasters."
+					description="Worked together with a team of 4 to build a website where you can upload an image of a room and optionally your location, and get a risk analysis of your room against natural disasters, including those in your area, using AI. The website provides a list of risks, plus action steps for each risk, allowing you to increase the room's safety."
 					githubLink="https://github.com/NateMartes/RoomReady"
 					devpostLink="https://devpost.com/software/roomready"
 				/>
@@ -142,14 +142,14 @@
 					name="ChatBox"
 					imageUrl="/chatbox.webp"
 					imageDesc="Screenshot of ChatBox Demo"
-					description="Easy-to-use platform to host and use local LLMs conveniently and privately."
+					description="Built a full-stack web app that makes it easy to host and chat with local LLMs conveniently and privately, anywhere you are. Just download a model, tell the server to use it, and visit the provided website."
 					githubLink="https://github.com/dhruvp987/ChatBox"
 				/>
 				<Project
 					name="EPIC8"
 					imageUrl="/epic8.webp"
 					imageDesc="Screenshot of EPIC8 Demo"
-					description="An epic CHIP-8 emulator."
+					description="Developed a C# app that emulates the CHIP-8 computer system, allowing you to run CHIP-8 software anywhere the C# app can run. Successfully made the IBM Logo program run. The goal is to implement the rest of the system instructions and add a GUI, so that more software can run."
 					githubLink="https://github.com/dhruvp987/EPIC8"
 				/>
 			</div>
