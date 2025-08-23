@@ -98,70 +98,116 @@
 		onoutroend={() => gotoPage(0)}
 	>
 		<button
-			class="rounded-3xl bg-white p-2 transition duration-200 ease-in-out hover:bg-cyan-100"
+			class="rounded-full bg-white p-2 transition duration-200 ease-in-out hover:bg-cyan-100"
 			onclick={resetPageNum}
 			title="Previous Section"
-			aria-label="Previous Section"
 		>
 			<img class="size-[2em]" src="/uparrow.svg" alt="Up arrow icon" />
 		</button>
 		<div
 			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
 		>
-			<h3 class="instrument-serif-regular pb-3 text-5xl text-white">Hi, Mom and Dad! 👋</h3>
+			<h3 class="instrument-serif-regular text-5xl text-white">Hi, Mom and Dad! 👋</h3>
 			{#each aboutMeParagraphs as pg (pg.id)}
-				<p class="dm-sans-regular pb-3 text-xl text-white">
+				<p class="dm-sans-regular pt-3 text-xl text-white">
 					{pg.content}
 				</p>
 			{/each}
-			<a
-				href="https://linkedin.com/in/dhruvpatel789"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="mr-1 inline-flex items-center justify-center rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
-				title="My LinkedIn"
-				aria-label="My LinkedIn"
-			>
-				<img class="size-[2em]" src="/linkedinfull.svg" alt="LinkedIn icon" />
-			</a>
-			<a
-				href="https://github.com/dhruvp987"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="inline-flex items-center justify-center rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
-				title="My GitHub"
-				aria-label="My GitHub"
-			>
-				<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
-			</a>
+			<div class="flex gap-2 pt-3">
+				<a
+					href="https://linkedin.com/in/dhruvpatel789"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+					title="My LinkedIn"
+					aria-label="My LinkedIn"
+				>
+					<img class="size-[2em]" src="/linkedinfull.svg" alt="LinkedIn icon" />
+				</a>
+				<a
+					href="https://github.com/dhruvp987"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+					title="My GitHub"
+					aria-label="My GitHub"
+				>
+					<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
+				</a>
+			</div>
 		</div>
 		<div
 			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
 		>
-			<h3 class="instrument-serif-regular pb-3 text-5xl text-white">Projects</h3>
-			<div class="flex flex-col gap-7">
-				<Project
-					name="RoomReady (1st Place Winner at HenHacks 2025)"
-					imageUrl="/roomready.webp"
-					imageDesc="Screenshot of RoomReady Demo"
-					description="Worked together with a team of 4 to build a website where you can upload an image of a room and optionally your location, and get a risk analysis of your room against natural disasters, including those in your area, using AI. The website provides a list of risks, plus action steps for each risk, allowing you to increase the room's safety."
-					githubLink="https://github.com/NateMartes/RoomReady"
-					devpostLink="https://devpost.com/software/roomready"
-				/>
-				<Project
-					name="ChatBox"
-					imageUrl="/chatbox.webp"
-					imageDesc="Screenshot of ChatBox Demo"
-					description="Built a full-stack web app that makes it easy to host and chat with local LLMs conveniently and privately, anywhere you are. Just download a model, tell the server to use it, and visit the provided website."
-					githubLink="https://github.com/dhruvp987/ChatBox"
-				/>
-				<Project
-					name="EPIC8"
-					imageUrl="/epic8.webp"
-					imageDesc="Screenshot of EPIC8 Demo"
-					description="Developed a C# app that emulates the CHIP-8 computer system, allowing you to run CHIP-8 software anywhere the C# app can run. Successfully made the IBM Logo program run. The goal is to implement the rest of the system instructions and add a GUI, so that more software can run."
-					githubLink="https://github.com/dhruvp987/EPIC8"
-				/>
+			<h3 class="instrument-serif-regular text-5xl text-white">Projects</h3>
+			<div class="flex flex-col gap-7 pt-3">
+				<div>
+					<Project
+						name="RoomReady (1st Place Winner at HenHacks 2025)"
+						imageUrl="/roomready.webp"
+						imageDesc="Screenshot of RoomReady Demo"
+						description="Worked together with a team of 4 to build a website where you can upload an image of a room and optionally your location, and get a risk analysis of your room against natural disasters, including those in your area, using AI. The website provides a list of risks, plus action steps for each risk, allowing you to increase the room's safety."
+					/>
+					<div class="flex gap-2 pt-2">
+						<a
+							href="https://github.com/NateMartes/RoomReady"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+							title="GitHub for RoomReady"
+						>
+							<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
+						</a>
+						<a
+							href="https://devpost.com/software/roomready"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+							title="DevPost for RoomReady"
+							aria-label="DevPost"
+						>
+							<img class="size-[2em]" src="/droundedfull.svg" alt="D icon" />
+						</a>
+					</div>
+				</div>
+				<div>
+					<Project
+						name="ChatBox"
+						imageUrl="/chatbox.webp"
+						imageDesc="Screenshot of ChatBox Demo"
+						description="Built a full-stack web app that makes it easy to host and chat with local LLMs conveniently and privately, anywhere you are. Just download a model, tell the server to use it, and visit the provided website."
+					/>
+					<div class="flex gap-2 pt-2">
+						<a
+							href="https://github.com/dhruvp987/ChatBox"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+							title="GitHub for ChatBox"
+						>
+							<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
+						</a>
+					</div>
+				</div>
+				<div>
+					<Project
+						name="EPIC8"
+						imageUrl="/epic8.webp"
+						imageDesc="Screenshot of EPIC8 Demo"
+						description="Developed a C# app that emulates the CHIP-8 computer system, allowing you to run CHIP-8 software anywhere the C# app can run. Successfully made the IBM Logo program run. The goal is to implement the rest of the system instructions and add a GUI, so that more software can run."
+					/>
+					<div class="flex gap-2 pt-2">
+						<a
+							href="https://github.com/dhruvp987/EPIC8"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+							title="GitHub for EPIC8"
+						>
+							<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div
