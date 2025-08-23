@@ -169,13 +169,22 @@
 							<img class="size-[2em]" src="/droundedfull.svg" alt="D icon" />
 						</a>
 					</div>
+					<div class="flex gap-2 pt-3">
+						<img class="size-[3em]" src="/python.svg" alt="Python icon" />
+						<img class="size-[3em]" src="/googlegemini.svg" alt="Google Gemini icon" />
+						<img class="size-[3em]" src="/fastapi.svg" alt="FastAPI icon" />
+						<img class="size-[3em]" src="/typescript.svg" alt="TypeScript icon" />
+						<img class="size-[3em]" src="/react.svg" alt="React icon" />
+						<img class="size-[3em]" src="/git.svg" alt="Git icon" />
+						<img class="size-[3em]" src="/docker.svg" alt="Docker icon" />
+					</div>
 				</div>
 				<div>
 					<Project
 						name="ChatBox"
 						imageUrl="/chatbox.webp"
 						imageDesc="Screenshot of ChatBox Demo"
-						description="Built a full-stack web app that makes it easy to host and chat with local LLMs conveniently and privately, anywhere you are. Just download a model, tell the server to use it, and visit the provided website."
+						description="Built a full-stack web app that makes it easy to host and chat with local LLMs conveniently and privately, anywhere you are. Just download a model, tell the server to use it, and visit the provided website. Powered by llama.cpp."
 					/>
 					<div class="flex gap-2 pt-2">
 						<a
@@ -187,6 +196,15 @@
 						>
 							<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
 						</a>
+					</div>
+					<div class="flex gap-2 pt-3">
+						<img class="size-[3em]" src="/python.svg" alt="Python icon" />
+						<img class="size-[3em]" src="/llamacpppython.svg" alt="llama-cpp-python icon" />
+						<img class="size-[3em]" src="/fastapi.svg" alt="FastAPI icon" />
+						<img class="size-[3em]" src="/html5.svg" alt="HTML5 icon" />
+						<img class="size-[3em]" src="/css3.svg" alt="CSS3 icon" />
+						<img class="size-[3em]" src="/javascript.svg" alt="JavaScript icon" />
+						<img class="size-[3em]" src="/git.svg" alt="Git icon" />
 					</div>
 				</div>
 				<div>
@@ -207,6 +225,10 @@
 							<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
 						</a>
 					</div>
+					<div class="flex gap-2 pt-3">
+						<img class="size-[3em]" src="/csharp.svg" alt="C# icon" />
+						<img class="size-[3em]" src="/git.svg" alt="Git icon" />
+					</div>
 				</div>
 			</div>
 		</div>
@@ -215,8 +237,15 @@
 		>
 			<h3 class="instrument-serif-regular pb-3 text-5xl text-white">About this Website</h3>
 			<p class="dm-sans-regular text-xl text-white">
-				This website is built using TypeScript, Svelte, SvelteKit, Tailwind CSS, and lots of ❤️!
+				This website is built using TypeScript, Svelte, SvelteKit, Tailwind CSS, Git, and lots of
+				❤️!
 			</p>
+			<div class="flex gap-2 pt-3">
+				<img class="size-[3em]" src="/typescript.svg" alt="TypeScript icon" />
+				<img class="size-[3em]" src="/svelte.svg" alt="Svelte icon" />
+				<img class="size-[3em]" src="/tailwindcss.svg" alt="Tailwind CSS icon" />
+				<img class="size-[3em]" src="/git.svg" alt="Git icon" />
+			</div>
 		</div>
 	</div>
 {/if}
