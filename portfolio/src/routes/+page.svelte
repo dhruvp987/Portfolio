@@ -21,6 +21,15 @@
 		return pageNum === num;
 	}
 
+	function onKeyDown(event) {
+		const upCode = 38;
+		const downCode = 40;
+
+		if ((event.keyCode === downCode && onPage(0)) || (event.keyCode === upCode && onPage(1))) {
+			resetPageNum();
+		}
+	}
+
 	const aboutMeParagraphs = [
 		{ id: 0, content: 'I want to build the fun stuff that everyone can enjoy.' },
 		{
@@ -164,3 +173,5 @@
 		</div>
 	</div>
 {/if}
+
+<svelte:window on:keydown|preventDefault={onKeyDown} />
