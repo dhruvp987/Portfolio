@@ -92,7 +92,7 @@
 	</div>
 {:else if onPage(1)}
 	<div
-		class="flex h-[100%] w-[100%] flex-col items-center gap-10 px-5 py-11"
+		class="flex size-full flex-col items-center gap-10 px-5 py-11"
 		in:fade={fadeParams}
 		out:fade={fadeParams}
 		onoutroend={() => gotoPage(0)}
@@ -148,7 +148,7 @@
 						imageDesc="Screenshot of RoomReady Demo"
 						description="Worked together with a team of 4 to build a website where you can upload an image of a room and optionally your location, and get a risk analysis of your room against natural disasters, including those in your area, using AI. The website provides a list of risks, plus action steps for each risk, allowing you to increase the room's safety."
 					/>
-					<div class="flex gap-2 pt-2">
+					<div class="w-full flex gap-2 pt-2">
 						<a
 							href="https://github.com/NateMartes/RoomReady"
 							target="_blank"
@@ -169,7 +169,7 @@
 							<img class="size-[2em]" src="/droundedfull.svg" alt="D icon" />
 						</a>
 					</div>
-					<div class="flex gap-2 pt-3">
+					<div class="w-full flex flex-wrap gap-2 pt-3">
 						<img class="size-[3em]" src="/python.svg" alt="Python icon" />
 						<img class="size-[3em]" src="/googlegemini.svg" alt="Google Gemini icon" />
 						<img class="size-[3em]" src="/fastapi.svg" alt="FastAPI icon" />
@@ -186,7 +186,7 @@
 						imageDesc="Screenshot of ChatBox Demo"
 						description="Built a full-stack web app that makes it easy to host and chat with local LLMs conveniently and privately, anywhere you are. Just download a model, tell the server to use it, and visit the provided website. Powered by llama.cpp."
 					/>
-					<div class="flex gap-2 pt-2">
+					<div class="w-full flex gap-2 pt-2">
 						<a
 							href="https://github.com/dhruvp987/ChatBox"
 							target="_blank"
@@ -197,7 +197,7 @@
 							<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
 						</a>
 					</div>
-					<div class="flex gap-2 pt-3">
+					<div class="w-full flex flex-wrap gap-2 pt-3">
 						<img class="size-[3em]" src="/python.svg" alt="Python icon" />
 						<img class="size-[3em]" src="/llamacpppython.svg" alt="llama-cpp-python icon" />
 						<img class="size-[3em]" src="/fastapi.svg" alt="FastAPI icon" />
@@ -214,7 +214,7 @@
 						imageDesc="Screenshot of EPIC8 Demo"
 						description="Developed a C# app that emulates the CHIP-8 computer system, allowing you to run CHIP-8 software anywhere the C# app can run. Successfully made the IBM Logo program run. The goal is to implement the rest of the system instructions and add a GUI, so that more software can run."
 					/>
-					<div class="flex gap-2 pt-2">
+					<div class="w-full flex gap-2 pt-2">
 						<a
 							href="https://github.com/dhruvp987/EPIC8"
 							target="_blank"
@@ -225,7 +225,7 @@
 							<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
 						</a>
 					</div>
-					<div class="flex gap-2 pt-3">
+					<div class="w-full flex flex-wrap gap-2 pt-3">
 						<img class="size-[3em]" src="/csharp.svg" alt="C# icon" />
 						<img class="size-[3em]" src="/git.svg" alt="Git icon" />
 					</div>
