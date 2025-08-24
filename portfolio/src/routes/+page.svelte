@@ -115,16 +115,6 @@
 			{/each}
 			<div class="flex gap-2 pt-3">
 				<a
-					href="https://linkedin.com/in/dhruvpatel789"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
-					title="My LinkedIn"
-					aria-label="My LinkedIn"
-				>
-					<img class="size-[2em]" src="/linkedinfull.svg" alt="LinkedIn icon" />
-				</a>
-				<a
 					href="https://github.com/dhruvp987"
 					target="_blank"
 					rel="noopener noreferrer"
@@ -133,6 +123,16 @@
 					aria-label="My GitHub"
 				>
 					<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
+				</a>
+				<a
+					href="https://linkedin.com/in/dhruvpatel789"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+					title="My LinkedIn"
+					aria-label="My LinkedIn"
+				>
+					<img class="size-[2em]" src="/linkedinfull.svg" alt="LinkedIn icon" />
 				</a>
 			</div>
 		</div>
