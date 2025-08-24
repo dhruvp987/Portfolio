@@ -139,6 +139,46 @@
 		<div
 			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
 		>
+			<h3 class="instrument-serif-regular text-5xl text-white">Experience</h3>
+			<div class="flex flex-col flex-wrap gap-7 pt-3">
+				<div>
+					<div class="flex flex-wrap">
+						<div class="grow">
+							<p class="instrument-serif-regular-italic text-3xl text-white">Peer Tutor</p>
+							<p class="instrument-serif-regular-italic text-3xl text-white">Wilkes University</p>
+						</div>
+						<p class="instrument-serif-regular flex-none text-3xl text-white">Sep 2024 — Present</p>
+					</div>
+					<p class="dm-sans-regular pt-1 text-xl text-white">
+						I helped several students from 4 CS classes succeed by creating a fun, approachable
+						atmosphere, recognizing and expressing the students' needs, explaining concepts using
+						simple terms and visuals, and guiding them with hands-on practice and thought-provoking
+						questions. Additionally, I communicated my tutoring service frequently, encouraging new
+						students to reach out. This led to several students coming regularly, building skills,
+						and improving their grades. Throughout the sessions, I've taught Python, Java, C, Bash, and AWK.
+					</p>
+				</div>
+				<div>
+					<div class="flex flex-wrap">
+						<div class="grow">
+							<p class="instrument-serif-regular-italic text-3xl text-white">Teaching Assistant</p>
+							<p class="instrument-serif-regular-italic pt-1 text-3xl text-white">
+								Wilkes University
+							</p>
+						</div>
+						<p class="instrument-serif-regular flex-none text-3xl text-white">
+							Jan 2025 — May 2025
+						</p>
+					</div>
+					<p class="dm-sans-regular pt-1 text-xl text-white">
+						I helped a class of 20 students grow in their Intro to Programming lab by proactively assisting them, encouraging them, sharing my knowledge, and being open and accessible. As a result, several students became more excited aboout computer science, and a few reached out to me for further tutoring. Thoughout the class, I taught students how to use Python to write modular code with documentation, draw graphics, and perform basic data science.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div
+			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
+		>
 			<h3 class="instrument-serif-regular text-5xl text-white">Projects</h3>
 			<div class="flex flex-col gap-7 pt-3">
 				<div>
@@ -243,7 +283,7 @@
 				This website is built using TypeScript, Svelte, SvelteKit, Tailwind CSS, Git, and lots of
 				❤️!
 			</p>
-			<div class="flex gap-2 pt-3">
+			<div class="flex flex-wrap gap-2 pt-3">
 				<img class="size-[3em]" src="/typescript.svg" alt="TypeScript icon" />
 				<img class="size-[3em]" src="/svelte.svg" alt="Svelte icon" />
 				<img class="size-[3em]" src="/tailwindcss.svg" alt="Tailwind CSS icon" />
