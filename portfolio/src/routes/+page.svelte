@@ -76,10 +76,10 @@
 			Dhruv Patel
 		</h1>
 		<div class="flex flex-col items-center justify-center">
-			<p class="instrument-serif-regular block pb-1 text-5xl text-white">
+			<p class="instrument-serif-regular block text-5xl text-white">
 				The only way to do great work is to love what you do.
 			</p>
-			<p class="instrument-serif-regular block text-5xl text-white">~ Steve Jobs</p>
+			<p class="instrument-serif-regular block pt-1 text-5xl text-white">~ Steve Jobs</p>
 		</div>
 		<button
 			class="flex-none rounded-3xl bg-white p-2 transition duration-200 ease-in-out hover:bg-cyan-100"
