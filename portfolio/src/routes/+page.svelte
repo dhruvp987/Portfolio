@@ -155,7 +155,8 @@
 						simple terms and visuals, and guiding them with hands-on practice and thought-provoking
 						questions. Additionally, I communicated my tutoring service frequently, encouraging new
 						students to reach out. This led to several students coming regularly, building skills,
-						and improving their grades. Throughout the sessions, I've taught Python, Java, C, Bash, and AWK.
+						and improving their grades. Throughout the sessions, I've taught Python, Java, C, Bash,
+						and AWK.
 					</p>
 				</div>
 				<div>
@@ -171,7 +172,12 @@
 						</p>
 					</div>
 					<p class="dm-sans-regular pt-1 text-xl text-white">
-						I helped a class of 20 students grow in their Intro to Programming lab by proactively assisting them, encouraging them, sharing my knowledge, and being open and accessible. As a result, several students became more excited aboout computer science, and a few reached out to me for further tutoring. Thoughout the class, I taught students how to use Python to write modular code with documentation, draw graphics, and perform basic data science.
+						I helped a class of 20 students grow in their Intro to Programming lab by proactively
+						assisting them, encouraging them, sharing my knowledge, and being open and accessible.
+						As a result, several students became more excited aboout computer science, and a few
+						reached out to me for further tutoring. Thoughout the class, I taught students how to
+						use Python to write modular code with documentation, draw graphics, and perform basic
+						data science.
 					</p>
 				</div>
 			</div>
@@ -278,11 +284,22 @@
 		<div
 			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
 		>
-			<h3 class="instrument-serif-regular pb-3 text-5xl text-white">About this Website</h3>
-			<p class="dm-sans-regular text-xl text-white">
+			<h3 class="instrument-serif-regular text-5xl text-white">About this Website</h3>
+			<p class="dm-sans-regular pt-3 text-xl text-white">
 				This website is built using TypeScript, Svelte, SvelteKit, Tailwind CSS, Git, and lots of
 				❤️!
 			</p>
+			<div class="flex w-full gap-2 pt-2">
+				<a
+					href="https://github.com/dhruvp987/Portfolio"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+					title="GitHub for this website"
+				>
+					<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
+				</a>
+			</div>
 			<div class="flex flex-wrap gap-2 pt-3">
 				<img class="size-[3em]" src="/typescript.svg" alt="TypeScript icon" />
 				<img class="size-[3em]" src="/svelte.svg" alt="Svelte icon" />
