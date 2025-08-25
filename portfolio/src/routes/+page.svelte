@@ -66,7 +66,7 @@
 
 {#if onPage(0)}
 	<div
-		class="flex h-screen w-screen flex-col items-center justify-center gap-10 px-5 py-11"
+		class="flex h-dvh w-dvw flex-col items-center justify-center gap-10 px-5 py-11"
 		in:fade={fadeParams}
 		out:fade={fadeParams}
 		onoutroend={() => gotoPage(1)}
