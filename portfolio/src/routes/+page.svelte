@@ -72,9 +72,33 @@
 		out:fade={fadeParams}
 		onoutroend={() => gotoPage(1)}
 	>
-		<h1 class="instrument-serif-regular grow animate-glowing-white-text text-7xl text-white">
-			Dhruv Patel
-		</h1>
+		<div class="flex flex-col grow items-center">
+			<h1 class="instrument-serif-regular animate-glowing-white-text text-7xl text-white">
+				Dhruv Patel
+			</h1>
+			<div class="flex gap-3 pt-4">
+				<a
+					href="https://github.com/dhruvp987"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+					title="My GitHub"
+					aria-label="My GitHub"
+				>
+					<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
+				</a>
+				<a
+					href="https://linkedin.com/in/dhruvpatel789"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+					title="My LinkedIn"
+					aria-label="My LinkedIn"
+				>
+					<img class="size-[2em]" src="/linkedinfull.svg" alt="LinkedIn icon" />
+				</a>
+			</div>
+		</div>
 		<div class="flex flex-col items-center justify-center">
 			<p class="instrument-serif-regular block text-5xl text-white">
 				The only way to do great work is to love what you do.
@@ -113,28 +137,6 @@
 					{pg.content}
 				</p>
 			{/each}
-			<div class="flex gap-2 pt-3">
-				<a
-					href="https://github.com/dhruvp987"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
-					title="My GitHub"
-					aria-label="My GitHub"
-				>
-					<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
-				</a>
-				<a
-					href="https://linkedin.com/in/dhruvpatel789"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
-					title="My LinkedIn"
-					aria-label="My LinkedIn"
-				>
-					<img class="size-[2em]" src="/linkedinfull.svg" alt="LinkedIn icon" />
-				</a>
-			</div>
 		</div>
 		<div
 			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
@@ -195,7 +197,7 @@
 						imageDesc="Screenshot of RoomReady Demo"
 						description="Worked together with a team of 4 to build a website where you can upload an image of a room and optionally your location, and get a risk analysis of your room against natural disasters, including those in your area, using AI. The website provides a list of risks, plus action steps for each risk, allowing you to increase the room's safety."
 					/>
-					<div class="flex w-full gap-2 pt-2">
+					<div class="flex w-full gap-3 pt-2">
 						<a
 							href="https://github.com/NateMartes/RoomReady"
 							target="_blank"
@@ -234,7 +236,7 @@
 						imageDesc="Screenshot of ChatBox Demo"
 						description="Built a full-stack web app that makes it easy to host and chat with local LLMs conveniently and privately, anywhere you are. Just download a model, tell the server to use it, and visit the provided website. Powered by llama.cpp."
 					/>
-					<div class="flex w-full gap-2 pt-2">
+					<div class="flex w-full gap-3 pt-2">
 						<a
 							href="https://github.com/dhruvp987/ChatBox"
 							target="_blank"
@@ -263,7 +265,7 @@
 						imageDesc="Screenshot of EPIC8 Demo"
 						description="Developed a C# app that emulates the CHIP-8 computer system, allowing you to run CHIP-8 software anywhere the C# app can run. Successfully made the IBM Logo program run. The goal is to implement the rest of the system instructions and add a GUI, so that more software can run."
 					/>
-					<div class="flex w-full gap-2 pt-2">
+					<div class="flex w-full gap-3 pt-2">
 						<a
 							href="https://github.com/dhruvp987/EPIC8"
 							target="_blank"
@@ -289,7 +291,7 @@
 				This website is built using TypeScript, Svelte, SvelteKit, Tailwind CSS, Git, and lots of
 				❤️!
 			</p>
-			<div class="flex w-full gap-2 pt-2">
+			<div class="flex w-full gap-3 pt-2">
 				<a
 					href="https://github.com/dhruvp987/Portfolio"
 					target="_blank"
