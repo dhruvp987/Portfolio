@@ -66,13 +66,15 @@
 
 {#if onPage(0)}
 	<div
-		class="flex h-dvh w-dvw flex-col items-center justify-center gap-7 md:gap-10 px-5 py-11"
+		class="flex h-dvh w-dvw flex-col items-center justify-center gap-7 px-5 py-11 md:gap-10"
 		in:fade={fadeParams}
 		out:fade={fadeParams}
 		onoutroend={() => gotoPage(1)}
 	>
 		<div class="flex grow flex-col items-center">
-			<h1 class="instrument-serif-regular animate-glowing-white-text text-5xl md:text-7xl text-white">
+			<h1
+				class="instrument-serif-regular animate-glowing-white-text text-5xl text-white md:text-7xl"
+			>
 				Dhruv Patel
 			</h1>
 			<div class="flex gap-3 pt-4">
@@ -99,10 +101,12 @@
 			</div>
 		</div>
 		<div class="flex flex-col items-center justify-center">
-			<p class="instrument-serif-regular block text-3xl md:text-5xl text-white">
+			<p class="instrument-serif-regular block text-3xl text-white md:text-5xl">
 				The only way to do great work is to love what you do.
 			</p>
-			<p class="instrument-serif-regular block pt-1 text-3xl md:text-5xl text-white">~ Steve Jobs</p>
+			<p class="instrument-serif-regular block pt-1 text-3xl text-white md:text-5xl">
+				~ Steve Jobs
+			</p>
 		</div>
 		<button
 			class="flex-none rounded-full bg-white p-2 transition duration-200 ease-in-out hover:bg-cyan-100"
@@ -130,9 +134,9 @@
 		<div
 			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
 		>
-			<h3 class="instrument-serif-regular text-5xl text-white">Hi, Mom and Dad! 👋</h3>
+			<h3 class="instrument-serif-regular text-3xl text-white md:text-5xl">Hi, Mom and Dad! 👋</h3>
 			{#each aboutMeParagraphs as pg (pg.id)}
-				<p class="dm-sans-regular pt-3 text-xl text-white">
+				<p class="dm-sans-regular pt-3 text-base text-white md:text-xl">
 					{pg.content}
 				</p>
 			{/each}
@@ -140,17 +144,23 @@
 		<div
 			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
 		>
-			<h3 class="instrument-serif-regular text-5xl text-white">Experience</h3>
-			<div class="flex flex-col flex-wrap gap-11 pt-3">
+			<h3 class="instrument-serif-regular text-3xl text-white md:text-5xl">Experience</h3>
+			<div class="flex flex-col flex-wrap gap-8 pt-3 md:gap-11">
 				<div>
 					<div class="flex flex-wrap">
 						<div class="grow">
-							<p class="instrument-serif-regular-italic text-3xl text-white">Peer Tutor</p>
-							<p class="instrument-serif-regular-italic text-3xl text-white">Wilkes University</p>
+							<p class="instrument-serif-regular-italic text-xl text-white md:text-3xl">
+								Peer Tutor
+							</p>
+							<p class="instrument-serif-regular-italic text-xl text-white md:text-3xl">
+								Wilkes University
+							</p>
 						</div>
-						<p class="instrument-serif-regular flex-none text-3xl text-white">Sep 2024 — Present</p>
+						<p class="instrument-serif-regular flex-none text-xl text-white md:text-3xl">
+							Sep 2024 — Present
+						</p>
 					</div>
-					<p class="dm-sans-regular pt-1 text-xl text-white">
+					<p class="dm-sans-regular pt-1 text-base text-white md:text-xl">
 						I helped several students from 4 CS classes succeed by creating a fun, approachable
 						atmosphere, recognizing and expressing the students' needs, explaining concepts using
 						simple terms and visuals, and guiding them with hands-on practice and thought-provoking
@@ -163,16 +173,18 @@
 				<div>
 					<div class="flex flex-wrap">
 						<div class="grow">
-							<p class="instrument-serif-regular-italic text-3xl text-white">Teaching Assistant</p>
-							<p class="instrument-serif-regular-italic pt-1 text-3xl text-white">
+							<p class="instrument-serif-regular-italic text-xl text-white md:text-3xl">
+								Teaching Assistant
+							</p>
+							<p class="instrument-serif-regular-italic pt-1 text-xl text-white md:text-3xl">
 								Wilkes University
 							</p>
 						</div>
-						<p class="instrument-serif-regular flex-none text-3xl text-white">
+						<p class="instrument-serif-regular flex-none text-xl text-white md:text-3xl">
 							Jan 2025 — May 2025
 						</p>
 					</div>
-					<p class="dm-sans-regular pt-1 text-xl text-white">
+					<p class="dm-sans-regular pt-1 text-base text-white md:text-xl">
 						I helped a class of 20 students grow in their Intro to Programming lab by proactively
 						assisting them, encouraging them, sharing my knowledge, and being open and accessible.
 						As a result, several students became more excited aboout computer science, and a few
@@ -186,11 +198,11 @@
 		<div
 			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
 		>
-			<h3 class="instrument-serif-regular text-5xl text-white">Projects</h3>
-			<div class="flex flex-col gap-18 pt-3">
+			<h3 class="instrument-serif-regular text-3xl text-white md:text-5xl">Projects</h3>
+			<div class="flex flex-col gap-15 pt-3 md:gap-18">
 				<div>
 					<div>
-						<h4 class="instrument-serif-regular-italic text-3xl text-white">
+						<h4 class="instrument-serif-regular-italic text-xl text-white md:text-3xl">
 							RoomReady (1st Place Winner at HenHacks 2025)
 						</h4>
 						<div class="flex w-full gap-3 pt-2">
@@ -227,7 +239,7 @@
 								class="mt-2 h-auto w-full rounded-xl border-2 border-gray-600"
 							/></a
 						>
-						<p class="dm-sans-regular pt-2 text-xl text-white">
+						<p class="dm-sans-regular pt-2 text-base text-white md:text-xl">
 							Worked together with a team of 4 to build a website where you can upload an image of a
 							room and optionally your location, and get a risk analysis of your room against
 							natural disasters, including those in your area, using AI. The website provides a list
@@ -235,18 +247,22 @@
 						</p>
 					</div>
 					<div class="flex w-full flex-wrap gap-2 pt-3">
-						<img class="size-[3em]" src="/python.svg" alt="Python icon" />
-						<img class="size-[3em]" src="/googlegemini.svg" alt="Google Gemini icon" />
-						<img class="size-[3em]" src="/fastapi.svg" alt="FastAPI icon" />
-						<img class="size-[3em]" src="/typescript.svg" alt="TypeScript icon" />
-						<img class="size-[3em]" src="/react.svg" alt="React icon" />
-						<img class="size-[3em]" src="/git.svg" alt="Git icon" />
-						<img class="size-[3em]" src="/docker.svg" alt="Docker icon" />
+						<img class="size-[2em] md:size-[3em]" src="/python.svg" alt="Python icon" />
+						<img
+							class="size-[2em] md:size-[3em]"
+							src="/googlegemini.svg"
+							alt="Google Gemini icon"
+						/>
+						<img class="size-[2em] md:size-[3em]" src="/fastapi.svg" alt="FastAPI icon" />
+						<img class="size-[2em] md:size-[3em]" src="/typescript.svg" alt="TypeScript icon" />
+						<img class="size-[2em] md:size-[3em]" src="/react.svg" alt="React icon" />
+						<img class="size-[2em] md:size-[3em]" src="/git.svg" alt="Git icon" />
+						<img class="size-[2em] md:size-[3em]" src="/docker.svg" alt="Docker icon" />
 					</div>
 				</div>
 				<div>
 					<div>
-						<h4 class="instrument-serif-regular-italic text-3xl text-white">ChatBox</h4>
+						<h4 class="instrument-serif-regular-italic text-xl text-white md:text-3xl">ChatBox</h4>
 						<div class="flex w-full gap-3 pt-2">
 							<a
 								href="https://github.com/dhruvp987/ChatBox"
@@ -271,25 +287,29 @@
 								class="mt-2 h-auto w-full rounded-xl border-2 border-gray-600"
 							/></a
 						>
-						<p class="dm-sans-regular pt-2 text-xl text-white">
+						<p class="dm-sans-regular pt-2 text-base text-white md:text-xl">
 							Built a full-stack web app that makes it easy to host and chat with local LLMs
 							conveniently and privately, anywhere you are. Just download a model, tell the server
 							to use it, and visit the provided website. Powered by llama.cpp.
 						</p>
 					</div>
 					<div class="flex w-full flex-wrap gap-2 pt-3">
-						<img class="size-[3em]" src="/python.svg" alt="Python icon" />
-						<img class="size-[3em]" src="/llamacpppython.svg" alt="llama-cpp-python icon" />
-						<img class="size-[3em]" src="/fastapi.svg" alt="FastAPI icon" />
-						<img class="size-[3em]" src="/html5.svg" alt="HTML5 icon" />
-						<img class="size-[3em]" src="/css3.svg" alt="CSS3 icon" />
-						<img class="size-[3em]" src="/javascript.svg" alt="JavaScript icon" />
-						<img class="size-[3em]" src="/git.svg" alt="Git icon" />
+						<img class="size-[2em] md:size-[3em]" src="/python.svg" alt="Python icon" />
+						<img
+							class="size-[2em] md:size-[3em]"
+							src="/llamacpppython.svg"
+							alt="llama-cpp-python icon"
+						/>
+						<img class="size-[2em] md:size-[3em]" src="/fastapi.svg" alt="FastAPI icon" />
+						<img class="size-[2em] md:size-[3em]" src="/html5.svg" alt="HTML5 icon" />
+						<img class="size-[2em] md:size-[3em]" src="/css3.svg" alt="CSS3 icon" />
+						<img class="size-[2em] md:size-[3em]" src="/javascript.svg" alt="JavaScript icon" />
+						<img class="size-[2em] md:size-[3em]" src="/git.svg" alt="Git icon" />
 					</div>
 				</div>
 				<div>
 					<div>
-						<h4 class="instrument-serif-regular-italic text-3xl text-white">
+						<h4 class="instrument-serif-regular-italic text-xl text-white md:text-3xl">
 							EPIC8, an Epic CHIP-8 Emulator
 						</h4>
 						<div class="flex w-full gap-3 pt-2">
@@ -313,7 +333,7 @@
 								class="mt-2 h-auto w-full rounded-xl border-2 border-gray-600"
 							/></a
 						>
-						<p class="dm-sans-regular pt-2 text-xl text-white">
+						<p class="dm-sans-regular pt-2 text-base text-white md:text-xl">
 							Developed a C# app that emulates the CHIP-8 computer system, allowing you to run
 							CHIP-8 software anywhere the C# app can run. Successfully made the IBM Logo program
 							run. The goal is to implement the rest of the system instructions and add a GUI, so
@@ -321,8 +341,8 @@
 						</p>
 					</div>
 					<div class="flex w-full flex-wrap gap-2 pt-3">
-						<img class="size-[3em]" src="/csharp.svg" alt="C# icon" />
-						<img class="size-[3em]" src="/git.svg" alt="Git icon" />
+						<img class="size-[2em] md:size-[3em]" src="/csharp.svg" alt="C# icon" />
+						<img class="size-[2em] md:size-[3em]" src="/git.svg" alt="Git icon" />
 					</div>
 				</div>
 			</div>
@@ -330,7 +350,7 @@
 		<div
 			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
 		>
-			<h3 class="instrument-serif-regular text-5xl text-white">About this Website</h3>
+			<h3 class="instrument-serif-regular text-3xl text-white md:text-5xl">About this Website</h3>
 			<div class="flex w-full gap-3 pt-2">
 				<a
 					href="https://github.com/dhruvp987/Portfolio"
@@ -342,15 +362,15 @@
 					<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
 				</a>
 			</div>
-			<p class="dm-sans-regular pt-3 text-xl text-white">
+			<p class="dm-sans-regular pt-3 text-base text-white md:text-xl">
 				This website is built using TypeScript, Svelte, SvelteKit, Tailwind CSS, Git, and lots of
 				❤️!
 			</p>
 			<div class="flex flex-wrap gap-2 pt-3">
-				<img class="size-[3em]" src="/typescript.svg" alt="TypeScript icon" />
-				<img class="size-[3em]" src="/svelte.svg" alt="Svelte icon" />
-				<img class="size-[3em]" src="/tailwindcss.svg" alt="Tailwind CSS icon" />
-				<img class="size-[3em]" src="/git.svg" alt="Git icon" />
+				<img class="size-[2em] md:size-[3em]" src="/typescript.svg" alt="TypeScript icon" />
+				<img class="size-[2em] md:size-[3em]" src="/svelte.svg" alt="Svelte icon" />
+				<img class="size-[2em] md:size-[3em]" src="/tailwindcss.svg" alt="Tailwind CSS icon" />
+				<img class="size-[2em] md:size-[3em]" src="/git.svg" alt="Git icon" />
 			</div>
 		</div>
 	</div>
