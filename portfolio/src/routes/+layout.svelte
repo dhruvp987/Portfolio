@@ -18,7 +18,7 @@
 </svelte:head>
 
 <div
-	class="fixed -z-1 h-screen w-screen bg-[url('/ambition.webp')] bg-cover bg-bottom bg-no-repeat brightness-45"
+	class="fixed -z-1 h-lvh w-lvw bg-[url('/ambition.webp')] bg-cover bg-bottom bg-no-repeat brightness-45"
 ></div>
 
 {@render children?.()}
