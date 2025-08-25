@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Project from './Project.svelte';
 	import { fade } from 'svelte/transition';
 
 	const fadeParams = { duration: 100 };
@@ -72,7 +71,7 @@
 		out:fade={fadeParams}
 		onoutroend={() => gotoPage(1)}
 	>
-		<div class="flex flex-col grow items-center">
+		<div class="flex grow flex-col items-center">
 			<h1 class="instrument-serif-regular animate-glowing-white-text text-7xl text-white">
 				Dhruv Patel
 			</h1>
@@ -190,33 +189,50 @@
 			<h3 class="instrument-serif-regular text-5xl text-white">Projects</h3>
 			<div class="flex flex-col gap-18 pt-3">
 				<div>
-					<Project
-						name="RoomReady (1st Place Winner at HenHacks 2025)"
-						imageUrl="/roomready.webp"
-						imageDim={{ width: 1508, height: 916 }}
-						imageDesc="Screenshot of RoomReady Demo"
-						description="Worked together with a team of 4 to build a website where you can upload an image of a room and optionally your location, and get a risk analysis of your room against natural disasters, including those in your area, using AI. The website provides a list of risks, plus action steps for each risk, allowing you to increase the room's safety."
-					/>
-					<div class="flex w-full gap-3 pt-2">
+					<div>
+						<h4 class="instrument-serif-regular-italic text-3xl text-white">
+							RoomReady (1st Place Winner at HenHacks 2025)
+						</h4>
+						<div class="flex w-full gap-3 pt-2">
+							<a
+								href="https://github.com/NateMartes/RoomReady"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+								title="GitHub for RoomReady"
+							>
+								<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
+							</a>
+							<a
+								href="https://devpost.com/software/roomready"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+								title="DevPost for RoomReady"
+								aria-label="DevPost"
+							>
+								<img class="size-[2em]" src="/droundedfull.svg" alt="D icon" />
+							</a>
+						</div>
 						<a
-							href="https://github.com/NateMartes/RoomReady"
+							href="/roomready.webp"
 							target="_blank"
 							rel="noopener noreferrer"
-							class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
-							title="GitHub for RoomReady"
+							title="Image of RoomReady"
+							><img
+								src="/roomready.webp"
+								alt="Screenshot of RoomReady Demo"
+								width="1508"
+								height="916"
+								class="mt-2 h-auto w-full rounded-xl border-2 border-gray-600"
+							/></a
 						>
-							<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
-						</a>
-						<a
-							href="https://devpost.com/software/roomready"
-							target="_blank"
-							rel="noopener noreferrer"
-							class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
-							title="DevPost for RoomReady"
-							aria-label="DevPost"
-						>
-							<img class="size-[2em]" src="/droundedfull.svg" alt="D icon" />
-						</a>
+						<p class="dm-sans-regular pt-2 text-xl text-white">
+							Worked together with a team of 4 to build a website where you can upload an image of a
+							room and optionally your location, and get a risk analysis of your room against
+							natural disasters, including those in your area, using AI. The website provides a list
+							of risks, plus action steps for each risk, allowing you to increase the room's safety.
+						</p>
 					</div>
 					<div class="flex w-full flex-wrap gap-2 pt-3">
 						<img class="size-[3em]" src="/python.svg" alt="Python icon" />
@@ -229,23 +245,37 @@
 					</div>
 				</div>
 				<div>
-					<Project
-						name="ChatBox"
-						imageUrl="/chatbox.webp"
-						imageDim={{ width: 1920, height: 949 }}
-						imageDesc="Screenshot of ChatBox Demo"
-						description="Built a full-stack web app that makes it easy to host and chat with local LLMs conveniently and privately, anywhere you are. Just download a model, tell the server to use it, and visit the provided website. Powered by llama.cpp."
-					/>
-					<div class="flex w-full gap-3 pt-2">
+					<div>
+						<h4 class="instrument-serif-regular-italic text-3xl text-white">ChatBox</h4>
+						<div class="flex w-full gap-3 pt-2">
+							<a
+								href="https://github.com/dhruvp987/ChatBox"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+								title="GitHub for ChatBox"
+							>
+								<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
+							</a>
+						</div>
 						<a
-							href="https://github.com/dhruvp987/ChatBox"
+							href="/chatbox.webp"
 							target="_blank"
 							rel="noopener noreferrer"
-							class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
-							title="GitHub for ChatBox"
+							title="Image of ChatBox"
+							><img
+								src="/chatbox.webp"
+								alt="Screenshot of ChatBox Demo"
+								width="1920"
+								height="949"
+								class="mt-2 h-auto w-full rounded-xl border-2 border-gray-600"
+							/></a
 						>
-							<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
-						</a>
+						<p class="dm-sans-regular pt-2 text-xl text-white">
+							Built a full-stack web app that makes it easy to host and chat with local LLMs
+							conveniently and privately, anywhere you are. Just download a model, tell the server
+							to use it, and visit the provided website. Powered by llama.cpp.
+						</p>
 					</div>
 					<div class="flex w-full flex-wrap gap-2 pt-3">
 						<img class="size-[3em]" src="/python.svg" alt="Python icon" />
@@ -258,23 +288,37 @@
 					</div>
 				</div>
 				<div>
-					<Project
-						name="EPIC8"
-						imageUrl="/epic8.webp"
-						imageDim={{ width: 1911, height: 1024 }}
-						imageDesc="Screenshot of EPIC8 Demo"
-						description="Developed a C# app that emulates the CHIP-8 computer system, allowing you to run CHIP-8 software anywhere the C# app can run. Successfully made the IBM Logo program run. The goal is to implement the rest of the system instructions and add a GUI, so that more software can run."
-					/>
-					<div class="flex w-full gap-3 pt-2">
-						<a
-							href="https://github.com/dhruvp987/EPIC8"
-							target="_blank"
-							rel="noopener noreferrer"
-							class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
-							title="GitHub for EPIC8"
+					<div>
+						<h4 class="instrument-serif-regular-italic text-3xl text-white">
+							EPIC8, an Epic CHIP-8 Emulator
+						</h4>
+						<div class="flex w-full gap-3 pt-2">
+							<a
+								href="https://github.com/dhruvp987/EPIC8"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+								title="GitHub for EPIC8"
+							>
+								<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
+							</a>
+						</div>
+
+						<a href="/epic8.webp" target="_blank" rel="noopener noreferrer" title="Image of EPIC8"
+							><img
+								src="/epic8.webp"
+								alt="Screenshot of EPIC8 Demo"
+								width="1911"
+								height="1024"
+								class="mt-2 h-auto w-full rounded-xl border-2 border-gray-600"
+							/></a
 						>
-							<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
-						</a>
+						<p class="dm-sans-regular pt-2 text-xl text-white">
+							Developed a C# app that emulates the CHIP-8 computer system, allowing you to run
+							CHIP-8 software anywhere the C# app can run. Successfully made the IBM Logo program
+							run. The goal is to implement the rest of the system instructions and add a GUI, so
+							that more software can run.
+						</p>
 					</div>
 					<div class="flex w-full flex-wrap gap-2 pt-3">
 						<img class="size-[3em]" src="/csharp.svg" alt="C# icon" />
@@ -287,10 +331,6 @@
 			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
 		>
 			<h3 class="instrument-serif-regular text-5xl text-white">About this Website</h3>
-			<p class="dm-sans-regular pt-3 text-xl text-white">
-				This website is built using TypeScript, Svelte, SvelteKit, Tailwind CSS, Git, and lots of
-				❤️!
-			</p>
 			<div class="flex w-full gap-3 pt-2">
 				<a
 					href="https://github.com/dhruvp987/Portfolio"
@@ -302,6 +342,10 @@
 					<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
 				</a>
 			</div>
+			<p class="dm-sans-regular pt-3 text-xl text-white">
+				This website is built using TypeScript, Svelte, SvelteKit, Tailwind CSS, Git, and lots of
+				❤️!
+			</p>
 			<div class="flex flex-wrap gap-2 pt-3">
 				<img class="size-[3em]" src="/typescript.svg" alt="TypeScript icon" />
 				<img class="size-[3em]" src="/svelte.svg" alt="Svelte icon" />
