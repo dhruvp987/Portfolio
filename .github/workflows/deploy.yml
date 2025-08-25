@@ -22,8 +22,6 @@ jobs:
         working-directory: 'portfolio/'
 
       - name: build
-        env:
-           BASE_PATH: '/${{ github.event.repository.name }}'
         run: npm run build
         working-directory: 'portfolio/'
 
