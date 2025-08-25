@@ -66,13 +66,13 @@
 
 {#if onPage(0)}
 	<div
-		class="flex h-dvh w-dvw flex-col items-center justify-center gap-10 px-5 py-11"
+		class="flex h-dvh w-dvw flex-col items-center justify-center gap-7 md:gap-10 px-5 py-11"
 		in:fade={fadeParams}
 		out:fade={fadeParams}
 		onoutroend={() => gotoPage(1)}
 	>
 		<div class="flex grow flex-col items-center">
-			<h1 class="instrument-serif-regular animate-glowing-white-text text-7xl text-white">
+			<h1 class="instrument-serif-regular animate-glowing-white-text text-5xl md:text-7xl text-white">
 				Dhruv Patel
 			</h1>
 			<div class="flex gap-3 pt-4">
@@ -99,13 +99,13 @@
 			</div>
 		</div>
 		<div class="flex flex-col items-center justify-center">
-			<p class="instrument-serif-regular block text-5xl text-white">
+			<p class="instrument-serif-regular block text-3xl md:text-5xl text-white">
 				The only way to do great work is to love what you do.
 			</p>
-			<p class="instrument-serif-regular block pt-1 text-5xl text-white">~ Steve Jobs</p>
+			<p class="instrument-serif-regular block pt-1 text-3xl md:text-5xl text-white">~ Steve Jobs</p>
 		</div>
 		<button
-			class="flex-none rounded-3xl bg-white p-2 transition duration-200 ease-in-out hover:bg-cyan-100"
+			class="flex-none rounded-full bg-white p-2 transition duration-200 ease-in-out hover:bg-cyan-100"
 			onclick={resetPageNum}
 			title="Next Section"
 			aria-label="Next Section"
