@@ -142,7 +142,7 @@
 			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
 		>
 			<h3 class="instrument-serif-regular text-5xl text-white">Experience</h3>
-			<div class="flex flex-col flex-wrap gap-7 pt-3">
+			<div class="flex flex-col flex-wrap gap-11 pt-3">
 				<div>
 					<div class="flex flex-wrap">
 						<div class="grow">
@@ -188,7 +188,7 @@
 			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
 		>
 			<h3 class="instrument-serif-regular text-5xl text-white">Projects</h3>
-			<div class="flex flex-col gap-7 pt-3">
+			<div class="flex flex-col gap-18 pt-3">
 				<div>
 					<Project
 						name="RoomReady (1st Place Winner at HenHacks 2025)"
