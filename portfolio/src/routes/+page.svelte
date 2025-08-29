@@ -84,7 +84,6 @@
 					rel="noopener noreferrer"
 					class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
 					title="My GitHub"
-					aria-label="My GitHub"
 				>
 					<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
 				</a>
@@ -94,7 +93,6 @@
 					rel="noopener noreferrer"
 					class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
 					title="My LinkedIn"
-					aria-label="My LinkedIn"
 				>
 					<img class="size-[2em]" src="/linkedinfull.svg" alt="LinkedIn icon" />
 				</a>
@@ -139,10 +137,10 @@
 				href="/kingofmatrix.webp"
 				target="_blank"
 				rel="noopener noreferrer"
-				title="Image of me as King of the Matrix"
+				title="Me as King of the Matrix"
 				><img
 					src="/kingofmatrix.webp"
-					alt="Image of me as King of the Matrix"
+					alt="Me as King of the Matrix"
 					width="2142"
 					height="2142"
 					class="mx-auto mt-2 w-48 rounded-xl border-2 border-gray-600 sm:w-64 md:w-[50%]"
@@ -225,7 +223,7 @@
 								target="_blank"
 								rel="noopener noreferrer"
 								class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
-								title="GitHub for RoomReady"
+								title="GitHub"
 							>
 								<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
 							</a>
@@ -234,20 +232,16 @@
 								target="_blank"
 								rel="noopener noreferrer"
 								class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
-								title="DevPost for RoomReady"
+								title="DevPost"
 								aria-label="DevPost"
 							>
 								<img class="size-[2em]" src="/droundedfull.svg" alt="D icon" />
 							</a>
 						</div>
-						<a
-							href="/roomready.webp"
-							target="_blank"
-							rel="noopener noreferrer"
-							title="Image of RoomReady"
+						<a href="/roomready.webp" target="_blank" rel="noopener noreferrer" title="RoomReady"
 							><img
 								src="/roomready.webp"
-								alt="Screenshot of RoomReady Demo"
+								alt="RoomReady Demo"
 								width="1508"
 								height="916"
 								class="mt-2 h-auto w-full rounded-xl border-2 border-gray-600"
@@ -283,19 +277,15 @@
 								target="_blank"
 								rel="noopener noreferrer"
 								class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
-								title="GitHub for ChatBox"
+								title="GitHub"
 							>
 								<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
 							</a>
 						</div>
-						<a
-							href="/chatbox.webp"
-							target="_blank"
-							rel="noopener noreferrer"
-							title="Image of ChatBox"
+						<a href="/chatbox.webp" target="_blank" rel="noopener noreferrer" title="ChatBox"
 							><img
 								src="/chatbox.webp"
-								alt="Screenshot of ChatBox Demo"
+								alt="ChatBox Demo"
 								width="1920"
 								height="949"
 								class="mt-2 h-auto w-full rounded-xl border-2 border-gray-600"
@@ -332,16 +322,16 @@
 								target="_blank"
 								rel="noopener noreferrer"
 								class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
-								title="GitHub for EPIC8"
+								title="GitHub"
 							>
 								<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
 							</a>
 						</div>
 
-						<a href="/epic8.webp" target="_blank" rel="noopener noreferrer" title="Image of EPIC8"
+						<a href="/epic8.webp" target="_blank" rel="noopener noreferrer" title="EPIC8"
 							><img
 								src="/epic8.webp"
-								alt="Screenshot of EPIC8 Demo"
+								alt="EPIC8 Demo"
 								width="1911"
 								height="1024"
 								class="mt-2 h-auto w-full rounded-xl border-2 border-gray-600"
@@ -371,7 +361,7 @@
 					target="_blank"
 					rel="noopener noreferrer"
 					class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
-					title="GitHub for this website"
+					title="GitHub"
 				>
 					<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
 				</a>
