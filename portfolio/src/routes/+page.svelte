@@ -134,7 +134,21 @@
 		<div
 			class="w-full rounded-2xl border-2 border-gray-600 bg-(--glassy-gray) p-5 backdrop-blur-sm lg:w-3xl"
 		>
-			<h3 class="instrument-serif-regular text-3xl text-white md:text-5xl">Hi, Mom and Dad! 👋</h3>
+			<h3 class="instrument-serif-regular text-3xl text-white md:text-5xl">👋 Hi, Mom and Dad!</h3>
+			<a
+				href="/kingofmatrix.webp"
+				target="_blank"
+				rel="noopener noreferrer"
+				title="Image of me as King of the Matrix"
+				><img
+					src="/kingofmatrix.webp"
+					alt="Image of me as King of the Matrix"
+					width="2142"
+					height="2142"
+					class="mx-auto mt-2 w-48 rounded-xl border-2 border-gray-600 sm:w-64 md:w-[50%]"
+				/></a
+			>
+
 			{#each aboutMeParagraphs as pg (pg.id)}
 				<p class="dm-sans-regular pt-3 text-base text-white md:text-xl">
 					{pg.content}
