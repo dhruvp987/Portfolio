@@ -314,6 +314,49 @@
 				<div>
 					<div>
 						<h4 class="instrument-serif-regular-italic text-xl text-white md:text-3xl">
+							Image Beautifier
+						</h4>
+						<div class="flex w-full gap-3 pt-2">
+							<a
+								href="https://github.com/dhruvp987/ImageBeautifier"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+								title="GitHub"
+							>
+								<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
+							</a>
+						</div>
+
+						<a
+							href="/imagebeautifier.webp"
+							target="_blank"
+							rel="noopener noreferrer"
+							title="Image Beautifier"
+							><img
+								src="/imagebeautifier.webp"
+								alt="Image Beautifier Demo"
+								width="1920"
+								height="1080"
+								class="mt-2 h-auto w-full rounded-xl border-2 border-gray-600"
+							/></a
+						>
+						<p class="dm-sans-regular pt-2 text-base text-white md:text-xl">
+							Worked with a partner to create a Go program that transforms images with ease and
+							speed, using the power of concurrency. Just say what you want to do, and it will do it
+							for you! You can blur, flip upside down, grayscale, resize, and add random cat images
+							🐱. In the future, we'd like to add a GUI and implement an API so the community can
+							add their own transformations!
+						</p>
+					</div>
+					<div class="flex w-full flex-wrap gap-2 pt-3">
+						<img class="size-[2em] md:size-[3em]" src="/go.svg" alt="Go icon" />
+						<img class="size-[2em] md:size-[3em]" src="/git.svg" alt="Git icon" />
+					</div>
+				</div>
+				<div>
+					<div>
+						<h4 class="instrument-serif-regular-italic text-xl text-white md:text-3xl">
 							EPIC8, an Epic CHIP-8 Emulator
 						</h4>
 						<div class="flex w-full gap-3 pt-2">
