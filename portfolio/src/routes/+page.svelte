@@ -423,4 +423,4 @@
 	</div>
 {/if}
 
-<svelte:window on:keydown|preventDefault={onKeyDown} />
+<svelte:window onkeydown={onKeyDown} />
