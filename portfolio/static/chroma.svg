@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill="none"
+   viewBox="0 0 24 24"
+   id="Chroma--Streamline-Svg-Logos"
+   height="24"
+   width="24"
+   version="1.1"
+   sodipodi:docname="chroma.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Greyscale"
+       id="filter63"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="0.216742 1.9328 -0.587284 -0.00269397 0 0.216742 1.9328 -0.587284 -0.00269397 0 0.216742 1.9328 -0.587284 -0.00269397 0 0 0 0 1 0 "
+         id="feColorMatrix63" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Greyscale"
+       id="filter64"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="0.216742 1.9328 -0.587284 -0.00269397 0 0.216742 1.9328 -0.587284 -0.00269397 0 0.216742 1.9328 -0.587284 -0.00269397 0 0 0 0 1 0 "
+         id="feColorMatrix64" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Greyscale"
+       id="filter65"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="0.216742 1.9328 -0.587284 -0.00269397 0 0.216742 1.9328 -0.587284 -0.00269397 0 0.216742 1.9328 -0.587284 -0.00269397 0 0 0 0 1 0 "
+         id="feColorMatrix65" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="32.875"
+     inkscape:cx="11.984791"
+     inkscape:cy="12"
+     inkscape:window-width="1670"
+     inkscape:window-height="1040"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Chroma--Streamline-Svg-Logos" />
+  <desc
+     id="desc1">
+    Chroma Streamline Icon: https://streamlinehq.com
+  </desc>
+  <path
+     fill="#ffde2d"
+     d="M15.916575 19.52c4.326225 0 7.833325 -3.3668 7.833325 -7.519975 0 -4.153175 -3.5071 -7.519975 -7.833325 -7.519975 -4.326225 0 -7.833325 3.3668 -7.833325 7.519975 0 4.153175 3.5071 7.519975 7.833325 7.519975Z"
+     stroke-width="0.25"
+     id="path1"
+     style="filter:url(#filter63)" />
+  <path
+     fill="#327eff"
+     d="M8.083325 19.52c4.326225 0 7.833325 -3.3668 7.833325 -7.519975 0 -4.153175 -3.5071 -7.519975 -7.833325 -7.519975C3.7571 4.48005 0.25 7.84685 0.25 12.000025 0.25 16.1532 3.7571 19.52 8.083325 19.52Z"
+     stroke-width="0.25"
+     id="path2"
+     style="filter:url(#filter64)" />
+  <path
+     fill="#ff6446"
+     d="M15.916625 12.000025c0 4.1532 -3.507125 7.519925 -7.833375 7.519925V12.000025h7.833375Zm-7.833375 0c0 -4.153175 3.5071 -7.519975 7.833375 -7.519975v7.519975H8.08325Z"
+     stroke-width="0.25"
+     id="path3"
+     style="filter:url(#filter65)" />
+</svg>
