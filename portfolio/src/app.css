@@ -4,6 +4,10 @@
 	--glassy-gray: rgba(75, 75, 75, 0.9);
 }
 
+body {
+	background-color: #181818;
+}
+
 @theme {
 	--animate-glowing-white-text: white-glow 8s ease-in-out infinite alternate;
 
