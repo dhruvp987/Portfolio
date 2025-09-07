@@ -96,6 +96,15 @@
 				>
 					<img class="size-[2em]" src="/linkedinfull.svg" alt="LinkedIn icon" />
 				</a>
+				<a
+					href="mailto:dhruvr.patel.business@gmail.com"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+					title="My Email"
+				>
+					<img class="size-[2em]" src="/envelopefull.svg" alt="Envelope icon" />
+				</a>
 			</div>
 		</div>
 		<div class="flex flex-col items-center justify-center">
