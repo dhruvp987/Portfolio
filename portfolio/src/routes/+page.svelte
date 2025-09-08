@@ -342,7 +342,10 @@
 						<p class="dm-sans-regular pt-2 text-base text-white md:text-xl">
 							Built a full-stack web app that makes it easy to host and chat with local LLMs
 							conveniently and privately, anywhere you are. Just download a model, tell the server
-							to use it, and visit the provided website. Powered by llama.cpp.
+							to use it, and visit the provided website.
+						</p>
+						<p class="dm-sans-regular pt-2 text-base text-white md:text-xl">
+							Deployed on Azure to deliver easy, secure, and reliable global access to users.
 						</p>
 					</div>
 					<div class="flex w-full flex-wrap gap-2 pt-3">
