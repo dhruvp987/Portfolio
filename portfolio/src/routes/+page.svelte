@@ -263,6 +263,56 @@
 				<div>
 					<div>
 						<h4 class="instrument-serif-regular-italic text-xl text-white md:text-3xl">
+							SelfQuest (1st Place Winner at Lehigh Hacks 2025)
+						</h4>
+						<div class="flex w-full gap-3 pt-2">
+							<a
+								href="https://github.com/NateMartes/Lehigh-Hacks-25"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+								title="GitHub"
+							>
+								<img class="size-[2em]" src="/githubfull.svg" alt="GitHub icon" />
+							</a>
+							<a
+								href="https://devpost.com/software/selfquest-4mp2d3"
+								target="_blank"
+								rel="noopener noreferrer"
+								class="rounded-full bg-white p-1 transition duration-200 ease-in-out hover:bg-cyan-100"
+								title="DevPost"
+							>
+								<img class="size-[2em]" src="/droundedfull.svg" alt="D icon" />
+							</a>
+						</div>
+						<a href="/selfquest.webp" target="_blank" rel="noopener noreferrer" title="SelfQuest"
+							><img
+								src="/selfquest.webp"
+								alt="SelfQuest Demo"
+								width="1898"
+								height="917"
+								class="mt-2 h-auto w-full rounded-xl border-2 border-gray-600"
+							/></a
+						>
+						<p class="dm-sans-regular pt-2 text-base text-white md:text-xl">
+							Worked in a team of 3 to build a full-stack AI narrative storytelling therapy app
+							where you can reflect on your thoughts and actions by interacting with personalized
+							choose-your-own-adventure stories. Each chapter builds on the last, so you can witness
+							your growth over time! Powered by several AWS services, including Lambda, Bedrock,
+							Amplify, Polly, CloudFormation, and CDK.
+						</p>
+					</div>
+					<div class="flex w-full flex-wrap gap-2 pt-3">
+						<img class="size-[2em] md:size-[3em]" src="/python.svg" alt="Python icon" />
+						<img class="size-[2em] md:size-[3em]" src="/aws.svg" alt="AWS icon" />
+						<img class="size-[2em] md:size-[3em]" src="/javascript.svg" alt="JavaScript icon" />
+						<img class="size-[2em] md:size-[3em]" src="/react.svg" alt="React icon" />
+						<img class="size-[2em] md:size-[3em]" src="/git.svg" alt="Git icon" />
+					</div>
+				</div>
+				<div>
+					<div>
+						<h4 class="instrument-serif-regular-italic text-xl text-white md:text-3xl">
 							RoomReady (1st Place Winner at HenHacks 2025)
 						</h4>
 						<div class="flex w-full gap-3 pt-2">
